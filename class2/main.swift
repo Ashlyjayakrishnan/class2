@@ -15,3 +15,16 @@ if(true < false)
     print("Thanks")
 }
  */
+var s : String = "Hello"
+var str = String()//initializing the string using a bracket
+str = " Hello world "//then put the value to the string
+var p : String
+p = " call me "//just for reference
+print("s,p,str")
+print(str.hasPrefix("Hello"))
+print(s.hasPrefix("Hello"))
+print(p.hasSuffix("Me"))
+print(str.lowercased())
+print(str.uppercased())
+print(str.description)//when we use the variuables always try to use the description //
+print(s.count)
