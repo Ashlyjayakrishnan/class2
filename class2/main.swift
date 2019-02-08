@@ -9,4 +9,9 @@
 import Foundation
 
 print("Hello, World!")
-
+/* will never compiled
+if(true < false)
+{
+    print("Thanks")
+}
+ */
