@@ -28,3 +28,38 @@ print(str.lowercased())
 print(str.uppercased())
 print(str.description)//when we use the variuables always try to use the description //
 print(s.count)
+//how to display character by character
+for c in str
+{
+    print(c)
+}
+////close range       eg : 1...10   /////
+//partialrangefrom     eg:1...      ///
+//partialrangethrough   eg:...50     ///
+//how to display number by number
+var x = 5...10
+for i in x
+{
+  print (i)
+}
+print(x)//displayb the range of numbers////
+//////
+var y = 1...
+for i in y
+{
+    print(i)
+    if(i == 20)
+    {
+        break
+    }
+}
+// we can use another way //
+var a = ...50
+if (a.contains(-1000))
+{
+ print("TRUE")
+}
+else{
+    print("FALSE")
+}
+
